@@ -4,23 +4,34 @@
   <category id="1" name="Gaming">
 
     <category id="10" name="Peripherals">
-      <category id="100" name="Gaming Monitor"/>
-      <category id="101" name="Gaming Keyboard"/>
-      <category id="102" name="Gaming Mouse"/>
-      <category id="103" name="Gaming Headset"/>
+      <category id="100" name="Gaming Monitor"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_monitor.png"/>
+      <category id="101" name="Gaming Keyboard"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_keyboard.png"/>
+      <category id="102" name="Gaming Mouse"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_mouse.png"/>
+      <category id="103" name="Gaming Headset"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_headset.png"/>
     </category>
 
     <category id="11" name="PC Components">
-      <category id="110" name="CPU"/>
-      <category id="111" name="RAM"/>
-      <category id="112" name="Graphics Card"/>
-      <category id="113" name="Motherboard"/>
-      <category id="114" name="Case"/>
+      <category id="110" name="CPU"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_cpu.png"/>
+      <category id="111" name="RAM"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_ram.png"/>
+      <category id="112" name="Graphics Card"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_gpu.png"/>
+      <category id="113" name="Motherboard"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_motherboard.png"/>
+      <category id="114" name="Case"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_case.png"/>
     </category>
 
     <category id="12" name="Systems">
-      <category id="120" name="Gaming Laptop"/>
-      <category id="121" name="Gaming Ready PC"/>
+      <category id="120" name="Gaming Laptop"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_laptop.png"/>
+      <category id="121" name="Gaming Ready PC"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_ready.png"/>
     </category>
 
   </category>
@@ -28,9 +39,12 @@
   <category id="2" name="Office">
 
     <category id="20" name="Office Products">
-      <category id="200" name="Office Monitor"/>
-      <category id="201" name="Office Laptop"/>
-      <category id="202" name="Keyboard &amp; Mouse"/>
+      <category id="200" name="Office Monitor"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_office_monitor.png"/>
+      <category id="201" name="Office Laptop"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_office_laptop.png"/>
+      <category id="202" name="Keyboard &amp; Mouse"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_office_mouse.png"/>
     </category>
 
   </category>
@@ -38,9 +52,10 @@
   <category id="3" name="Workstation">
 
     <category id="30" name="Professional Products">
-      <category id="300" name="Workstation Laptop"/>
-      <category id="301" name="Workstation PC"/>
-      <category id="302" name="Professional Monitor"/>
+      <category id="301" name="Workstation PC"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_workstation_pc.png"/>
+      <category id="302" name="Professional Monitor"
+                image="https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/category/category_workstation_monitor.png"/>
     </category>
 
   </category>

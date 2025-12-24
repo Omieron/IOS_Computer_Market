@@ -336,6 +336,7 @@
                 <navigationController id="FTn-DO-WKx" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Build PC" image="shippingbox.fill" catalog="system" landscapeImage="Build PC" id="Gre-OF-6cQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n9q-ua-zec">
+                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -509,7 +510,6 @@
                 <navigationController id="pjI-9J-LXs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="Trg-Em-YbH"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zo7-4O-0IW">
-                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -776,22 +776,22 @@
                                 <rect key="frame" x="15" y="182" width="363" height="473"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Of Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk2-U5-6Om">
-                                        <rect key="frame" x="115.33333333333333" y="0.0" width="132.33333333333337" height="15"/>
+                                        <rect key="frame" x="115.33333333333333" y="0.0" width="132.33333333333337" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZWD-cf-x7i">
-                                        <rect key="frame" x="61.666666666666686" y="25.000000000000007" width="240" height="113.66666666666669"/>
+                                        <rect key="frame" x="61.666666666666686" y="30" width="240" height="111"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Of Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzC-nb-J2z">
-                                        <rect key="frame" x="118.66666666666666" y="148.66666666666669" width="126" height="15"/>
+                                        <rect key="frame" x="118.66666666666666" y="151" width="126" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OQQ-0B-Uah">
-                                        <rect key="frame" x="61.666666666666686" y="173.66666666666671" width="240" height="299.33333333333326"/>
+                                        <rect key="frame" x="61.666666666666686" y="181" width="240" height="292"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" systemColor="labelColor"/>
