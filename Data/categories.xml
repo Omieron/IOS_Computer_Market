@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <categories>
 
-  <!-- ===================== -->
-  <!-- GAMING -->
-  <!-- ===================== -->
   <category id="1" name="Gaming">
 
-    <subcategory name="Peripherals">
-      <item name="Gaming Monitor"/>
-      <item name="Gaming Keyboard"/>
-      <item name="Gaming Mouse"/>
-      <item name="Gaming Headset"/>
-    </subcategory>
+    <category id="10" name="Peripherals">
+      <category id="100" name="Gaming Monitor"/>
+      <category id="101" name="Gaming Keyboard"/>
+      <category id="102" name="Gaming Mouse"/>
+      <category id="103" name="Gaming Headset"/>
+    </category>
 
-    <subcategory name="PC Components">
-      <item name="CPU"/>
-      <item name="RAM"/>
-      <item name="Graphics Card"/>
-      <item name="Motherboard"/>
-      <item name="Case"/>
-    </subcategory>
+    <category id="11" name="PC Components">
+      <category id="110" name="CPU"/>
+      <category id="111" name="RAM"/>
+      <category id="112" name="Graphics Card"/>
+      <category id="113" name="Motherboard"/>
+      <category id="114" name="Case"/>
+    </category>
 
-    <subcategory name="Systems">
-      <item name="Gaming Laptop"/>
-      <item name="Gaming Ready PC"/>
-    </subcategory>
+    <category id="12" name="Systems">
+      <category id="120" name="Gaming Laptop"/>
+      <category id="121" name="Gaming Ready PC"/>
+    </category>
 
   </category>
 
-  <!-- ===================== -->
-  <!-- OFFICE -->
-  <!-- ===================== -->
   <category id="2" name="Office">
 
-    <subcategory name="Office Products">
-      <item name="Office Monitor"/>
-      <item name="Office Laptop"/>
-      <item name="Keyboard &amp; Mouse"/>
-    </subcategory>
+    <category id="20" name="Office Products">
+      <category id="200" name="Office Monitor"/>
+      <category id="201" name="Office Laptop"/>
+      <category id="202" name="Keyboard &amp; Mouse"/>
+    </category>
 
   </category>
 
-  <!-- ===================== -->
-  <!-- WORKSTATION -->
-  <!-- ===================== -->
   <category id="3" name="Workstation">
 
-    <subcategory name="Professional Products">
-      <item name="Workstation Laptop"/>
-      <item name="Workstation PC"/>
-      <item name="Professional Monitor"/>
-    </subcategory>
+    <category id="30" name="Professional Products">
+      <category id="300" name="Workstation Laptop"/>
+      <category id="301" name="Workstation PC"/>
+      <category id="302" name="Professional Monitor"/>
+    </category>
 
   </category>
 

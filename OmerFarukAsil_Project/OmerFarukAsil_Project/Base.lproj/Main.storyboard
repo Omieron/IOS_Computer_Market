@@ -30,11 +30,11 @@
             </objects>
             <point key="canvasLocation" x="-1158" y="447"/>
         </scene>
-        <!--Products-->
+        <!--Categories-->
         <scene sceneID="0TB-ea-SC7">
             <objects>
                 <navigationController id="LRC-QA-MYn" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Products" image="pc" catalog="system" landscapeImage="Products" id="iKF-MO-vhg"/>
+                    <tabBarItem key="tabBarItem" title="Categories" image="pc" catalog="system" landscapeImage="Products" id="iKF-MO-vhg"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecq-0p-HCx">
                         <rect key="frame" x="0.0" y="118" width="393" height="54"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="424" y="-470"/>
         </scene>
-        <!--Products-->
+        <!--Categories-->
         <scene sceneID="dLb-t7-lNN">
             <objects>
-                <viewController id="DDS-gT-CcT" sceneMemberID="viewController">
+                <viewController id="DDS-gT-CcT" customClass="CategoriesVC" customModule="OmerFarukAsil_Project" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZeH-vL-KFL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,8 +130,8 @@
                             <constraint firstItem="oDp-E8-KX1" firstAttribute="leading" secondItem="eMF-yE-IAH" secondAttribute="leading" constant="15" id="pH0-89-WDa"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Products" id="gdl-cj-0n0">
-                        <barButtonItem key="backBarButtonItem" title="Products" id="acm-No-TYt"/>
+                    <navigationItem key="navigationItem" title="Categories" id="gdl-cj-0n0">
+                        <barButtonItem key="backBarButtonItem" title="Categories" id="acm-No-TYt"/>
                     </navigationItem>
                     <connections>
                         <segue destination="yYZ-9p-qa8" kind="show" id="daH-Kw-GC9"/>
@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="1937" y="-470"/>
         </scene>
-        <!--Hangi Kategori-->
+        <!--Sub Category-->
         <scene sceneID="ZTC-KG-818">
             <objects>
-                <viewController id="yYZ-9p-qa8" sceneMemberID="viewController">
+                <viewController id="yYZ-9p-qa8" customClass="SubCategoriesVC" customModule="OmerFarukAsil_Project" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4OY-p4-g4K">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,8 +195,8 @@
                             <constraint firstItem="7IP-wP-I3u" firstAttribute="bottom" secondItem="9Qp-J2-fiq" secondAttribute="bottom" constant="10" id="wPV-fW-aaV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Hangi Kategori" id="YzQ-sg-lKF">
-                        <barButtonItem key="backBarButtonItem" title="Hangi Kategori" id="XQK-nA-yq4"/>
+                    <navigationItem key="navigationItem" title="Sub Category" id="YzQ-sg-lKF">
+                        <barButtonItem key="backBarButtonItem" title="Sub Category" id="XQK-nA-yq4"/>
                     </navigationItem>
                     <connections>
                         <segue destination="iJw-ZL-LyC" kind="show" id="3zT-7L-zfY"/>
@@ -565,10 +565,10 @@
             </objects>
             <point key="canvasLocation" x="1937" y="2355"/>
         </scene>
-        <!--O Kategori-->
+        <!--Products-->
         <scene sceneID="Lms-uR-G1Y">
             <objects>
-                <viewController id="iJw-ZL-LyC" sceneMemberID="viewController">
+                <viewController id="iJw-ZL-LyC" customClass="ProductsVC" customModule="OmerFarukAsil_Project" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7M8-xx-ssF">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -590,7 +590,7 @@
                                                         <constraint firstAttribute="height" constant="80" id="2ir-cL-yo4"/>
                                                     </constraints>
                                                 </imageView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="N0M-mb-nFA">
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="N0M-mb-nFA">
                                                     <rect key="frame" x="157.33333333333331" y="13.333333333333332" width="132.33333333333331" height="58.666666666666671"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Of Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkY-r0-QQN">
@@ -630,7 +630,7 @@
                             <constraint firstItem="KOJ-8D-eXR" firstAttribute="top" secondItem="xWo-pJ-ogt" secondAttribute="top" constant="10" id="vS7-cj-HG6"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="O Kategori" id="k9r-cf-uWO">
+                    <navigationItem key="navigationItem" title="Products" id="k9r-cf-uWO">
                         <barButtonItem key="backBarButtonItem" title="O Kategori" id="s9g-40-COr"/>
                     </navigationItem>
                     <connections>
@@ -644,7 +644,7 @@
         <!--Product Title-->
         <scene sceneID="BAz-0D-c6p">
             <objects>
-                <viewController id="xAE-7P-Uue" sceneMemberID="viewController">
+                <viewController id="xAE-7P-Uue" customClass="ProductDetailVC" customModule="OmerFarukAsil_Project" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OU9-af-iJu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
