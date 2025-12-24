@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "GameBooster GB-27C300FF",
+    "brand": "GameBooster",
+    "category": "Monitor",
+    "description": "27'' 300Hz 0.5ms HDMI DP FreeSync Adaptive Sync HDR10 FHD Fast VA Curved 1500R Gaming Monitor",
+    "price": 7819.00,
+    "currency": "TRY",
+    "images": [
+      "monitor_img1-1.png",
+      "monitor_img1-2.png",
+      "monitor_img1-3.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "AOC 25G4KUR",
+    "brand": "AOC",
+    "category": "Monitor",
+    "description": "24.5\" 420Hz(OC) 1ms HDMI DP AdaptiveSync HDR400 Pivot FHD Fast IPS Gaming Monitor",
+    "price": 12999.00,
+    "currency": "TRY",
+    "images": [
+      "monitor_img2-1.png",
+      "monitor_img2-2.png",
+      "monitor_img2-3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "FAZEON X25F240PW",
+    "brand": "FAZEON",
+    "category": "Monitor",
+    "description": "24.5\" 240Hz 0.5ms HDMI DP HDR10 FreeSync G-Sync FHD Fast SS IPS White Gaming Monitor",
+    "price": 4999.00,
+    "currency": "TRY",
+    "images": [
+      "monitor_img3-1.png",
+      "monitor_img3-2.png",
+      "monitor_img3-3.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "GIGABYTE M27UA",
+    "brand": "GIGABYTE",
+    "category": "Monitor",
+    "description": "27\" 160Hz 1ms HDMI DP Adaptive Sync UHD HDR400 SS IPS Gaming Monitor",
+    "price": 18417.58,
+    "currency": "TRY",
+    "images": [
+      "monitor_img4-1.png",
+      "monitor_img4-2.png",
+      "monitor_img4-3.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Philips Evnia 27M2N3800A",
+    "brand": "Philips",
+    "category": "Monitor",
+    "description": "27\" Dual Mode 4K 160Hz / FHD 320Hz 0.5ms HDMI DP AdaptiveSync Pivot HDR400 FAST IPS Gaming Monitor",
+    "price": 19032.56,
+    "currency": "TRY",
+    "images": [
+      "monitor_img5-1.png",
+      "monitor_img5-2.png",
+      "monitor_img5-3.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ASUS TUF GAMING VG34WQML5A",
+    "brand": "ASUS",
+    "category": "Monitor",
+    "description": "34\" 250Hz(OC) 0.5ms HDMI DP USB 3.2 FreeSync Adaptive Sync HDR10 WQHD Fast VA Curved Gaming Monitor",
+    "price": 21058.60,
+    "currency": "TRY",
+    "images": [
+      "monitor_img6-1.png",
+      "monitor_img6-2.png",
+      "monitor_img6-3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MSI PRO MP252 E2",
+    "brand": "MSI",
+    "category": "Monitor",
+    "description": "24.5\" 120Hz 1ms HDMI DP HDR Ready AdaptiveSync FHD IPS Monitor",
+    "price": 5002.10,
+    "currency": "TRY",
+    "images": [
+      "monitor_img7-1.png",
+      "monitor_img7-2.png",
+      "monitor_img7-3.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "BenQ EW2790U",
+    "brand": "BenQ",
+    "category": "Monitor",
+    "description": "27\" 60Hz 5ms HDMI USB-C FreeSync HDR10 Pivot UHD Gaming Monitor",
+    "price": 19707.91,
+    "currency": "TRY",
+    "images": [
+      "monitor_img8-1.png",
+      "monitor_img8-2.png",
+      "monitor_img8-3.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ASUS ROG Strix XG32UCG",
+    "brand": "ASUS",
+    "category": "Monitor",
+    "description": "31.5\" 160Hz 0.03ms HDMI DP USB-C AdaptiveSync HDR10 FHD Fast IPS Gaming Monitor",
+    "price": 33994.60,
+    "currency": "TRY",
+    "images": [
+      "monitor_img9-1.png",
+      "monitor_img9-2.png",
+      "monitor_img9-3.png"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "ViewSonic VX3218C-2K",
+    "brand": "ViewSonic",
+    "category": "Monitor",
+    "description": "32\" 165Hz 1ms HDMI DP FreeSync Premium HDR10 QHD VA Curved Gaming Monitor",
+    "price": 9899.00,
+    "currency": "TRY",
+    "images": [
+      "monitor_img10-1.png",
+      "monitor_img10-2.png",
+      "monitor_img10-3.png"
+    ]
+  }
+]

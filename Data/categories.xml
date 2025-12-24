@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+
+  <!-- ===================== -->
+  <!-- GAMING -->
+  <!-- ===================== -->
+  <category id="1" name="Gaming">
+
+    <subcategory name="Peripherals">
+      <item name="Gaming Monitor"/>
+      <item name="Gaming Keyboard"/>
+      <item name="Gaming Mouse"/>
+      <item name="Gaming Headset"/>
+    </subcategory>
+
+    <subcategory name="PC Components">
+      <item name="CPU"/>
+      <item name="RAM"/>
+      <item name="Graphics Card"/>
+      <item name="Motherboard"/>
+      <item name="Case"/>
+    </subcategory>
+
+    <subcategory name="Systems">
+      <item name="Gaming Laptop"/>
+      <item name="Gaming Ready PC"/>
+    </subcategory>
+
+  </category>
+
+  <!-- ===================== -->
+  <!-- OFFICE -->
+  <!-- ===================== -->
+  <category id="2" name="Office">
+
+    <subcategory name="Office Products">
+      <item name="Office Monitor"/>
+      <item name="Office Laptop"/>
+      <item name="Keyboard &amp; Mouse"/>
+    </subcategory>
+
+  </category>
+
+  <!-- ===================== -->
+  <!-- WORKSTATION -->
+  <!-- ===================== -->
+  <category id="3" name="Workstation">
+
+    <subcategory name="Professional Products">
+      <item name="Workstation Laptop"/>
+      <item name="Workstation PC"/>
+      <item name="Professional Monitor"/>
+    </subcategory>
+
+  </category>
+
+</categories>
