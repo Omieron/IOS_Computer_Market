@@ -51,8 +51,14 @@ class DataSoruce {
 
         let id = Int(item.element?.attribute(by: "id")?.text ?? "0")!
         let name = item.element?.attribute(by: "name")?.text ?? "Unknown"
+        let imageURL = item.element?.attribute(by: "image")?.text
 
-        let category = Category(id: id, name: name, parentId: parentId)
+        let category = Category(
+            id: id,
+            name: name,
+            parentId: parentId,
+            imageURL: imageURL
+        )
 
         for child in item["category"].all {
             let childCategory = parseCategory(child, parentId: id)
@@ -61,12 +67,5 @@ class DataSoruce {
 
         return category
     }
-
-    
-    
-
-    
-    
-    
     
 }

@@ -9,22 +9,16 @@ import UIKit
 
 class CategoriesVC: UIViewController {
 
-    @IBOutlet weak var gamingCollectionView: UICollectionView!
+   
+    @IBOutlet weak var categoryTableView: UITableView!
     
-    
-    @IBOutlet weak var officeCollectionView: UICollectionView!
-    
-    
-    @IBOutlet weak var workstationCollectionView: UICollectionView!
     
     let xmlCategoryData = DataSoruce()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.xmlCategoryData.populateFromXML()
-        self.gamingCollectionView.reloadData()
-        self.officeCollectionView.reloadData()
-        self.workstationCollectionView.reloadData()
+        categoryTableView.reloadData()
         // Do any additional setup after loading the view.
     }
     
@@ -41,46 +35,27 @@ class CategoriesVC: UIViewController {
 
 }
 
-extension CategoriesVC: UICollectionViewDelegate, UICollectionViewDataSource {
-    
-    func collectionView(_ collectionView: UICollectionView,
-                        numberOfItemsInSection section: Int) -> Int {
+extension CategoriesVC: UITableViewDataSource, UITableViewDelegate {
 
-        if collectionView == gamingCollectionView {
-            return xmlCategoryData.rootCategories[0].children.count
-        } else if collectionView == officeCollectionView {
-            return xmlCategoryData.rootCategories[1].children.count
-        } else {
-            return xmlCategoryData.rootCategories[2].children.count
-        }
+    func tableView(_ tableView: UITableView,
+                   numberOfRowsInSection section: Int) -> Int {
+        return xmlCategoryData.rootCategories.count
     }
 
-    
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
-    
-    func collectionView(_ collectionView: UICollectionView,
-                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = collectionView.dequeueReusableCell(
-            withReuseIdentifier: "SubCategoryCell",
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "CategoryRowCell",
             for: indexPath
-        ) as! CustomCategoriesCollectionViewCell
+        ) as! CategoryTableViewCell
 
-        let category: Category
+        let category = xmlCategoryData.rootCategories[indexPath.row]
+        cell.configure(with: category)
 
-        if collectionView == gamingCollectionView {
-            category = xmlCategoryData.rootCategories[0].children[indexPath.item]
-        } else if collectionView == officeCollectionView {
-            category = xmlCategoryData.rootCategories[1].children[indexPath.item]
-        } else {
-            category = xmlCategoryData.rootCategories[2].children[indexPath.item]
-        }
-
-        cell.titleLabel.text = category.name.capitalized
         return cell
     }
-
-    
 }
+
+
+
