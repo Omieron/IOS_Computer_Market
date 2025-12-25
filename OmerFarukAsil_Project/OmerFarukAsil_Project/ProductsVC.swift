@@ -6,14 +6,37 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ProductsVC: UIViewController {
 
+    @IBOutlet weak var productTableView: UITableView!
+    
+    var selectedCategory: Category?
+    
+    let jsonDataSource = DataSoruce()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        guard let category = selectedCategory else { return }
+        title = category.name
+        let categoriesToShow: [Category]
+        if category.children.isEmpty {
+            categoriesToShow = [category]
+        } else {
+            categoriesToShow = category.children.flatMap { $0.children }
+        }
+        print("Gösterilecek kategori sayısı:", categoriesToShow.count)
+        print(category.name)
+        jsonDataSource.populateFromJSON {
+            print("Products count:", self.jsonDataSource.numberOfProducts())
+            self.productTableView.reloadData()
+        }
+        print("deneme")
     }
+    
+    
     
 
     /*
@@ -27,3 +50,52 @@ class ProductsVC: UIViewController {
     */
 
 }
+
+extension ProductsVC: UITableViewDataSource, UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView,
+                   numberOfRowsInSection section: Int) -> Int {
+        return jsonDataSource.numberOfProducts()
+    }
+
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "ProductsCell",
+            for: indexPath
+        ) as! ProductsTableViewCell
+
+        let product = jsonDataSource.productAt(index: indexPath.row)
+
+        cell.productName.text = product.name
+        cell.priceProduct.text = "\(product.price) \(product.currency)"
+
+        // Şimdilik image yoksa placeholder
+        if let firstImage = product.images.first,
+           let url = URL(string: firstImage) {
+
+            // Kingfisher kullanıyorsan:
+            cell.productImage.kf.setImage(
+                with: url,
+                placeholder: UIImage(named: "placeholder")
+            )
+        } else {
+            cell.productImage.image = UIImage(named: "placeholder")
+        }
+
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView,
+                   didSelectRowAt indexPath: IndexPath) {
+
+        tableView.deselectRow(at: indexPath, animated: true)
+
+        let product = jsonDataSource.productAt(index: indexPath.row)
+        print("Seçilen product:", product.name)
+
+        // 👉 ileride ProductDetailVC push edilecek yer
+    }
+}
+

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CategoriesVC: UIViewController {
 
@@ -17,11 +18,25 @@ class CategoriesVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.xmlCategoryData.populateFromXML()
-        categoryTableView.reloadData()
+        
+        ImageCache.default.clearMemoryCache()
+        ImageCache.default.clearDiskCache()
+        
+        xmlCategoryData.populateFromXML {
+            self.categoryTableView.reloadData()
+        }
+
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toProducts",
+           let vc = segue.destination as? ProductsVC,
+           let category = sender as? Category {
+
+            vc.selectedCategory = category
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -41,7 +56,7 @@ extension CategoriesVC: UITableViewDataSource, UITableViewDelegate {
                    numberOfRowsInSection section: Int) -> Int {
         return xmlCategoryData.rootCategories.count
     }
-
+    
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
@@ -53,9 +68,27 @@ extension CategoriesVC: UITableViewDataSource, UITableViewDelegate {
         let category = xmlCategoryData.rootCategories[indexPath.row]
         cell.configure(with: category)
 
+        cell.delegate = self
+
         return cell
     }
+
 }
+
+extension CategoriesVC: CategoryTableViewCellDelegate {
+
+    func didSelectSubCategory(_ category: Category) {
+        // sadece seçilen leaf
+        performSegue(withIdentifier: "toProducts", sender: category)
+    }
+
+    func didTapSeeAll(for category: Category) {
+        // büyük kategori
+        performSegue(withIdentifier: "toProducts", sender: category)
+    }
+}
+
+
 
 
 

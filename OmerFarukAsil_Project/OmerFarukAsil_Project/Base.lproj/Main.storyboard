@@ -130,6 +130,9 @@
                                                                     <rect key="frame" x="266.66666666666669" y="0.0" width="76.333333333333314" height="40"/>
                                                                     <state key="normal" title="Button"/>
                                                                     <buttonConfiguration key="configuration" style="gray" title="See All"/>
+                                                                    <connections>
+                                                                        <action selector="seeAllTapped:" destination="Jkf-5e-VCB" eventType="touchUpInside" id="eIH-aM-RGs"/>
+                                                                    </connections>
                                                                 </button>
                                                             </subviews>
                                                         </stackView>
@@ -180,7 +183,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="categoryTableView" destination="cbN-ac-8KX" id="Z0U-pI-iji"/>
-                        <segue destination="iJw-ZL-LyC" kind="show" id="gQV-YV-Pez"/>
+                        <segue destination="iJw-ZL-LyC" kind="show" identifier="toProducts" id="gQV-YV-Pez"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ype-DP-Ztc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -558,31 +561,31 @@
                                 <rect key="frame" x="15" y="182" width="363" height="543"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="8b2-mY-UM5">
-                                        <rect key="frame" x="0.0" y="50" width="363" height="51"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ProductsCell" rowHeight="120" id="8b2-mY-UM5" customClass="ProductsTableViewCell" customModule="OmerFarukAsil_Project">
+                                        <rect key="frame" x="0.0" y="50" width="363" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8b2-mY-UM5" id="nZu-c0-zLa">
-                                            <rect key="frame" x="0.0" y="0.0" width="363" height="51"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="363" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dra-9y-zMK">
-                                                    <rect key="frame" x="16" y="-24.666666666666668" width="150" height="100.33333333333333"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="dra-9y-zMK">
+                                                    <rect key="frame" x="16" y="10" width="150" height="100"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="NL1-Le-2S8"/>
                                                         <constraint firstAttribute="width" constant="150" id="Wr5-6Z-6Fp"/>
                                                     </constraints>
                                                 </imageView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="N0M-mb-nFA">
-                                                    <rect key="frame" x="181" y="-4" width="132.33333333333337" height="59"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="N0M-mb-nFA">
+                                                    <rect key="frame" x="181" y="29.666666666666668" width="132.33333333333337" height="60.666666666666657"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Of Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkY-r0-QQN">
-                                                            <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="20.666666666666668"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="132.33333333333334" height="20.333333333333332"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Of Product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uii-3g-QqN">
-                                                            <rect key="frame" x="0.0" y="38.666666666666664" width="132.33333333333334" height="20.333333333333336"/>
+                                                            <rect key="frame" x="0.0" y="40.333333333333329" width="132.33333333333334" height="20.333333333333329"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -597,8 +600,17 @@
                                                 <constraint firstItem="N0M-mb-nFA" firstAttribute="leading" secondItem="dra-9y-zMK" secondAttribute="trailing" constant="15" id="rpg-R8-SBl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="priceProduct" destination="Uii-3g-QqN" id="odH-Fe-Mte"/>
+                                            <outlet property="productImage" destination="dra-9y-zMK" id="OFL-rK-B2J"/>
+                                            <outlet property="productName" destination="TkY-r0-QQN" id="xa0-yZ-Tda"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="iJw-ZL-LyC" id="trT-tc-lX7"/>
+                                    <outlet property="delegate" destination="iJw-ZL-LyC" id="YhR-vg-cSV"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xWo-pJ-ogt"/>
@@ -614,12 +626,13 @@
                         <barButtonItem key="backBarButtonItem" title="O Kategori" id="s9g-40-COr"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="productTableView" destination="KOJ-8D-eXR" id="Puu-sX-iiB"/>
                         <segue destination="xAE-7P-Uue" kind="show" id="Ghq-e7-i48"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOg-Ei-fRA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4503" y="-470"/>
+            <point key="canvasLocation" x="4247" y="-470"/>
         </scene>
         <!--Product Title-->
         <scene sceneID="BAz-0D-c6p">
