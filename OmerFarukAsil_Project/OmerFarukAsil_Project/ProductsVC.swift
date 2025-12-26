@@ -22,17 +22,19 @@ class ProductsVC: UIViewController {
         guard let category = selectedCategory else { return }
         title = category.name
         let categoriesToShow: [Category]
+        
         if category.children.isEmpty {
             categoriesToShow = [category]
         } else {
             categoriesToShow = category.children.flatMap { $0.children }
         }
+       
         print("Gösterilecek kategori sayısı:", categoriesToShow.count)
         print(category.name)
-        jsonDataSource.populateFromJSON {
-            print("Products count:", self.jsonDataSource.numberOfProducts())
-            self.productTableView.reloadData()
-        }
+        
+        jsonDataSource.populateFromJSON()
+        print("Products count:", jsonDataSource.numberOfProducts())
+        productTableView.reloadData()
         print("deneme")
     }
     
@@ -61,25 +63,15 @@ extension ProductsVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCell(
-            withIdentifier: "ProductsCell",
-            for: indexPath
-        ) as! ProductsTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ProductsCell", for: indexPath) as! ProductsTableViewCell
 
         let product = jsonDataSource.productAt(index: indexPath.row)
 
         cell.productName.text = product.name
         cell.priceProduct.text = "\(product.price) \(product.currency)"
 
-        // Şimdilik image yoksa placeholder
-        if let firstImage = product.images.first,
-           let url = URL(string: firstImage) {
-
-            // Kingfisher kullanıyorsan:
-            cell.productImage.kf.setImage(
-                with: url,
-                placeholder: UIImage(named: "placeholder")
-            )
+        if let firstImage = product.images.first, let url = URL(string: firstImage) {
+            cell.productImage.kf.setImage(with: url, placeholder: UIImage(named: "placeholder"))
         } else {
             cell.productImage.image = UIImage(named: "placeholder")
         }
@@ -95,7 +87,7 @@ extension ProductsVC: UITableViewDataSource, UITableViewDelegate {
         let product = jsonDataSource.productAt(index: indexPath.row)
         print("Seçilen product:", product.name)
 
-        // 👉 ileride ProductDetailVC push edilecek yer
+        
     }
 }
 

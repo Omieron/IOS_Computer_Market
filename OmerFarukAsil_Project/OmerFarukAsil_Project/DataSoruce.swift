@@ -90,65 +90,58 @@ class DataSoruce {
         }
 
     
-    func populateFromJSON(completion: @escaping () -> Void) {
+    func populateFromJSON() {
 
-        guard let url = URL(string:
-            "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/products.json")
-        else { return }
+        guard let url = URL(string: "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/products.json") else {
+            print("URL error")
+            return
+        }
 
-        URLSession.shared.dataTask(with: url) { data, _, error in
+        guard let data = try? Data(contentsOf: url) else {
+            print("Data error")
+            return
+        }
 
-            if let error = error {
-                print("Network error:", error)
-                return
-            }
+        guard let json = try? JSON(data: data) else {
+            print("JSON parse error")
+            return
+        }
 
-            guard let data = data else { return }
+        let productsArray = json["products"].arrayValue
 
-            do {
-                let jsonArray = try JSONSerialization.jsonObject(with: data) as? [[String: Any]] ?? []
+        for item in productsArray {
+            let product = parseProduct(item)
+            products.append(product)
+        }
 
-                self.products.removeAll()
-
-                for item in jsonArray {
-                    let product = self.parseProduct(item)
-                    self.products.append(product)
-                }
-
-                DispatchQueue.main.async {
-                    print("Product count:", self.products.count)
-                    completion()
-                }
-
-            } catch {
-                print("JSON Parse Error:", error)
-            }
-
-        }.resume()
+        print("Toplam ürün sayısı: \(products.count)")
     }
 
 
-        func parseProduct(_ item: [String: Any]) -> Product {
 
-            let id = item["id"] as? Int ?? 0
-            let name = item["name"] as? String ?? "Unknown"
-            let brand = item["brand"] as? String ?? "Unknown"
-            let description = item["description"] as? String ?? ""
-            let price = item["price"] as? Double ?? 0
-            let currency = item["currency"] as? String ?? ""
-            let images = item["images"] as? [String] ?? []
 
-            let product = Product(
-                id: id,
-                name: name,
-                brand: brand,
-                description: description,
-                price: price,
-                currency: currency,
-                images: images
-            )
+    func parseProduct(_ item: JSON) -> Product {
 
-            return product
-        }
+        let id = item["id"].intValue
+        let name = item["name"].stringValue
+        let brand = item["brand"].stringValue
+        let description = item["description"].stringValue
+        let price = item["price"].doubleValue
+        let currency = item["currency"].stringValue
+        let images = item["images"].arrayValue.map { $0.stringValue }
+
+        let product = Product(
+            id: id,
+            name: name,
+            brand: brand,
+            description: description,
+            price: price,
+            currency: currency,
+            images: images
+        )
+
+        return product
+    }
+
     
 }

@@ -95,8 +95,8 @@
 				55BF6D582EFBFBD10074C805 /* DataSoruce.swift */,
 				55BF6D5A2EFBFE700074C805 /* SwiftyJSON.swift */,
 				55BF6D5C2EFBFEA00074C805 /* SWXMLHash.swift */,
-				55BF6D632EFC0C960074C805 /* CustomCategoriesCollectionViewCell.swift */,
 				556FF62F2EFD920D00193634 /* CategoryTableViewCell.swift */,
+				55BF6D632EFC0C960074C805 /* CustomCategoriesCollectionViewCell.swift */,
 				556061862EFDACA40010D7B8 /* ProductsTableViewCell.swift */,
 			);
 			path = OmerFarukAsil_Project;
