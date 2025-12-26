@@ -6,11 +6,36 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ProductDetailVC: UIViewController {
+    
+    var product: Product?
+
+    @IBOutlet weak var nameOfPoduct: UILabel!
+    
+    @IBOutlet weak var imageOfProduct: UIImageView!
+    
+    @IBOutlet weak var priceOfProduct: UILabel!
+    
+    @IBOutlet weak var descriptionOfProduct: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let product = product {
+            title = product.brand
+            nameOfPoduct.text = product.name
+            if let firstImage = product.images.first, let url = URL(string: firstImage) {
+                imageOfProduct.kf.setImage(with: url, placeholder: UIImage(named: "placeholder"))
+            } else {
+                imageOfProduct.image = UIImage(named: "placeholder")
+            }
+            priceOfProduct.text = String(product.price)
+            descriptionOfProduct.text = product.description
+            
+                    // diğer UI ayarları burada
+        }
 
         // Do any additional setup after loading the view.
     }

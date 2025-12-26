@@ -14,6 +14,8 @@ class ProductsVC: UIViewController {
     
     var selectedCategory: Category?
     
+    var selectedProduct: Product?
+    
     let jsonDataSource = DataSoruce()
     
     override func viewDidLoad() {
@@ -21,24 +23,28 @@ class ProductsVC: UIViewController {
         
         guard let category = selectedCategory else { return }
         title = category.name
-        let categoriesToShow: [Category]
         
-        if category.children.isEmpty {
+        //let categoriesToShow: [Category]
+        
+        /*if category.children.isEmpty {
             categoriesToShow = [category]
         } else {
             categoriesToShow = category.children.flatMap { $0.children }
         }
-       
-        print("Gösterilecek kategori sayısı:", categoriesToShow.count)
-        print(category.name)
-        
+        */
         jsonDataSource.populateFromJSON()
-        print("Products count:", jsonDataSource.numberOfProducts())
+
         productTableView.reloadData()
-        print("deneme")
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+
+        if segue.identifier == "showProductDetail",
+           let destination = segue.destination as? ProductDetailVC {
+
+            destination.product = selectedProduct
+        }
+    }    
     
 
     /*
@@ -84,10 +90,10 @@ extension ProductsVC: UITableViewDataSource, UITableViewDelegate {
 
         tableView.deselectRow(at: indexPath, animated: true)
 
-        let product = jsonDataSource.productAt(index: indexPath.row)
-        print("Seçilen product:", product.name)
+        selectedProduct = jsonDataSource.productAt(index: indexPath.row)
 
-        
+        performSegue(withIdentifier: "showProductDetail", sender: self)
     }
+
 }
 
