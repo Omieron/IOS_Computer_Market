@@ -7,14 +7,19 @@
 
 import UIKit
 import Kingfisher
+import CoreData
 
-class ProductsVC: UIViewController {
+class ProductsVC: UIViewController, ProductDetailDelegate {
 
     @IBOutlet weak var productTableView: UITableView!
     
     var selectedCategory: Category?
     
     var selectedProduct: Product?
+    
+    var mCart: [Cart] = []
+    
+    var mFavorite: [Favorite] = []
     
     let jsonDataSource = DataSoruce()
     
@@ -33,6 +38,10 @@ class ProductsVC: UIViewController {
         }
         */
         jsonDataSource.populateFromJSON()
+        
+        fetchCartData()
+        
+        fetchFavoriteData()
 
         productTableView.reloadData()
     }
@@ -43,8 +52,106 @@ class ProductsVC: UIViewController {
            let destination = segue.destination as? ProductDetailVC {
 
             destination.product = selectedProduct
+            destination.delegate = self
         }
-    }    
+    }
+    
+    func addFavoriteProduct(_ product: Product){
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let newFavoriteItem = Favorite(context: context)
+        newFavoriteItem.name = product.name
+        newFavoriteItem.brand = product.brand
+        newFavoriteItem.currency = product.currency
+        newFavoriteItem.desc = product.description
+        newFavoriteItem.id = Int64(product.id)
+        newFavoriteItem.image = product.images.first ?? ""
+        newFavoriteItem.price = product.price
+        
+        do {
+            try context.save()
+        } catch {
+            print("Save error: \(error)")
+        }
+        
+        fetchFavoriteData()
+    }
+    
+    func addCartProduct(_ product: Product) {
+
+        let context = (UIApplication.shared.delegate as! AppDelegate)
+            .persistentContainer.viewContext
+
+        let fetchRequest: NSFetchRequest<Cart> = Cart.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "id == %d", product.id)
+
+        do {
+            let results = try context.fetch(fetchRequest)
+
+            if !results.isEmpty {
+                let generator = UINotificationFeedbackGenerator()
+                generator.notificationOccurred(.warning)
+                return
+            }
+
+            let newCartItem = Cart(context: context)
+            newCartItem.name = product.name
+            newCartItem.brand = product.brand
+            newCartItem.currency = product.currency
+            newCartItem.desc = product.description
+            newCartItem.id = Int64(product.id)
+            newCartItem.image = product.images.first ?? ""
+            newCartItem.price = product.price
+
+            try context.save()
+            fetchCartData()
+
+            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+
+        } catch {
+            print("Add cart error:", error)
+        }
+    }
+    
+    func fetchCartData(){
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Cart")
+        
+        let sortDescriptor1 = NSSortDescriptor(key: "name", ascending: true)
+        let sortDescriptor2 = NSSortDescriptor(key: "brand", ascending: true)
+        
+        fetchRequest.sortDescriptors = [sortDescriptor1, sortDescriptor2]
+        
+        do {
+            let results = try context.fetch(fetchRequest)
+            mCart = results as! [Cart]
+        } catch let error as NSError {
+            print("Could not fetch \(error), \(error.userInfo)")
+        }
+        
+    }
+    
+    func fetchFavoriteData(){
+        
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Favorite")
+        
+        let sortDescriptor1 = NSSortDescriptor(key: "name", ascending: true)
+        let sortDescriptor2 = NSSortDescriptor(key: "brand", ascending: true)
+        
+        fetchRequest.sortDescriptors = [sortDescriptor1, sortDescriptor2]
+        
+        do {
+            let results = try context.fetch(fetchRequest)
+            mFavorite = results as! [Favorite]
+        } catch let error as NSError {
+            print("Could not fetch \(error), \(error.userInfo)")
+        }
+        
+    }
     
 
     /*

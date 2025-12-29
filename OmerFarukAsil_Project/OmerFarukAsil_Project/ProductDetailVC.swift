@@ -8,6 +8,11 @@
 import UIKit
 import Kingfisher
 
+protocol ProductDetailDelegate: AnyObject {
+    func addFavoriteProduct(_ product: Product)
+    func addCartProduct(_ product: Product)
+}
+
 class ProductDetailVC: UIViewController {
     
     var product: Product?
@@ -19,6 +24,8 @@ class ProductDetailVC: UIViewController {
     @IBOutlet weak var priceOfProduct: UILabel!
     
     @IBOutlet weak var descriptionOfProduct: UITextView!
+    
+    weak var delegate: ProductDetailDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,13 +38,23 @@ class ProductDetailVC: UIViewController {
             } else {
                 imageOfProduct.image = UIImage(named: "placeholder")
             }
-            priceOfProduct.text = String(product.price)
+            priceOfProduct.text = String(product.price) + " TL"
             descriptionOfProduct.text = product.description
             
                     // diğer UI ayarları burada
         }
 
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func pressedFavoriteButton(_ sender: Any){
+        navigationController?.popViewController(animated: true)
+        delegate?.addFavoriteProduct(product!)
+    }
+    
+    @IBAction func pressedCartButton(_ sender: Any){
+        navigationController?.popViewController(animated: true)
+        delegate?.addCartProduct(product!)
     }
     
 
