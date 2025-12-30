@@ -32,6 +32,8 @@
 		55BF6D622EFC07750074C805 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 55BF6D612EFC07750074C805 /* Kingfisher */; };
 		55BF6D642EFC0C960074C805 /* CustomCategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF6D632EFC0C960074C805 /* CustomCategoriesCollectionViewCell.swift */; };
 		55D4BF202F02FE4D00DA6C06 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4BF1F2F02FE4D00DA6C06 /* FavoriteVC.swift */; };
+		55D4BF222F03104400DA6C06 /* ImageGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4BF212F03104400DA6C06 /* ImageGalleryVC.swift */; };
+		55DDA2872F0328C400201944 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DDA2862F0328C400201944 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		55BF6D5C2EFBFEA00074C805 /* SWXMLHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		55BF6D632EFC0C960074C805 /* CustomCategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
 		55D4BF1F2F02FE4D00DA6C06 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		55D4BF212F03104400DA6C06 /* ImageGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryVC.swift; sourceTree = "<group>"; };
+		55DDA2862F0328C400201944 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +106,13 @@
 				550E49A92EF973E70013D87C /* Info.plist */,
 				550E49AB2EF973E70013D87C /* LaunchScreen.storyboard */,
 				550E49AD2EF973E70013D87C /* Main.storyboard */,
+				55DDA2862F0328C400201944 /* MainVC.swift */,
 				55BF6D502EFBE38A0074C805 /* CategoriesVC.swift */,
 				55BF6D522EFBE3A90074C805 /* ProductsVC.swift */,
 				55BF6D542EFBE3B80074C805 /* ProductDetailVC.swift */,
 				556A3A922F02DDA000A036EC /* CartVC.swift */,
 				55D4BF1F2F02FE4D00DA6C06 /* FavoriteVC.swift */,
+				55D4BF212F03104400DA6C06 /* ImageGalleryVC.swift */,
 				550E49AF2EF973E70013D87C /* SceneDelegate.swift */,
 				550E49A72EF973E70013D87C /* AppDelegate.swift */,
 				550E49AE2EF973E70013D87C /* OmerFarukAsil_Project.xcdatamodeld */,
@@ -204,6 +210,7 @@
 				550E49B22EF973E70013D87C /* AppDelegate.swift in Sources */,
 				55BF6D5D2EFBFEA30074C805 /* SWXMLHash.swift in Sources */,
 				556061872EFDACA40010D7B8 /* ProductsTableViewCell.swift in Sources */,
+				55DDA2872F0328C400201944 /* MainVC.swift in Sources */,
 				55BF6D532EFBE3A90074C805 /* ProductsVC.swift in Sources */,
 				55BF6D5B2EFBFE730074C805 /* SwiftyJSON.swift in Sources */,
 				5599BB412F02CA0F00626D2C /* Favorite+CoreDataProperties.swift in Sources */,
@@ -216,6 +223,7 @@
 				55BF6D552EFBE3B80074C805 /* ProductDetailVC.swift in Sources */,
 				5599BB3F2F02C9AD00626D2C /* Favorite.swift in Sources */,
 				55BF6D572EFBE52A0074C805 /* Category.swift in Sources */,
+				55D4BF222F03104400DA6C06 /* ImageGalleryVC.swift in Sources */,
 				5599BB3D2F02C83100626D2C /* Cart+CoreDataProperties.swift in Sources */,
 				5599BB432F02DC1200626D2C /* CartCustomTableViewCell.swift in Sources */,
 				556FF6302EFD920D00193634 /* CategoryTableViewCell.swift in Sources */,

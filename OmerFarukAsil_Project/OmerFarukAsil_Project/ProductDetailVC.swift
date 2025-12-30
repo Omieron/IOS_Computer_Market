@@ -43,8 +43,15 @@ class ProductDetailVC: UIViewController {
             
                     // diğer UI ayarları burada
         }
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(openImageGallery))
+        imageOfProduct.addGestureRecognizer(tap)
 
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func openImageGallery() {
+        performSegue(withIdentifier: "showImageGallery", sender: nil)
     }
     
     @IBAction func pressedFavoriteButton(_ sender: Any){
@@ -55,6 +62,13 @@ class ProductDetailVC: UIViewController {
     @IBAction func pressedCartButton(_ sender: Any){
         navigationController?.popViewController(animated: true)
         delegate?.addCartProduct(product!)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showImageGallery",
+           let dest = segue.destination as? ImageGalleryVC {
+            dest.images = product?.images ?? []
+        }
     }
     
 
