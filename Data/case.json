@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 114,
+    "name": "Case",
+    "parentId": 11,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Thermaltake View 380",
+      "brand": "Thermaltake",
+      "description": "850W 80+ Gold ARGB USB 3.2 Siyah ATX Mid Tower Kasa",
+      "price": 10231.53,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "GIGABYTE C201 PANORAMIC ICE",
+      "brand": "GIGABYTE",
+      "description": "Tempered Glass USB 3.0 ATX Mid Tower Bilgisayar Kasası",
+      "price": 3897.62,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BitFenix AL118",
+      "brand": "BitFenix",
+      "description": "850W 80+ Bronze Tempered Glass ARGB USB 3.0 ATX Mid Tower Beyaz Kasa",
+      "price": 6728.37,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ASUS ROG STRIX Helios II GX601S",
+      "brand": "ASUS",
+      "description": "Tempered Glass ARGB USB 3.2 Beyaz E-ATX Bilgisayar Kasası",
+      "price": 19259.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rampage MEGA V1",
+      "brand": "Rampage",
+      "description": "850W 80+ Bronze Tempered Glass USB3.0 ARGB Beyaz ATX Gaming Kasa",
+      "price": 6299.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "FAZEON F19",
+      "brand": "FAZEON",
+      "description": "750W 80+ Bronze Tempered Glass Mesh 4x ARGB Fanlı USB 3.0 Beyaz ATX Bilgisayar Kasası",
+      "price": 5107.03,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "BitFenix Mirror T10",
+      "brand": "BitFenix",
+      "description": "850W 80+ Bronze Tempered Glass ARGB USB 3.1 ATX Mid Tower Siyah Kasa",
+      "price": 9199.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "FAZEON F17",
+      "brand": "FAZEON",
+      "description": "750W 80+ Bronze Tempered Glass Mesh 3x ARGB Fanlı USB 3.0 Beyaz ATX Bilgisayar Kasası",
+      "price": 4864.84,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "FAZEON F14",
+      "brand": "FAZEON",
+      "description": "850W 80+ Bronze Tempered Glass Mesh 5x ARGB Fanlı Type-C Siyah ATX Bilgisayar Kasası",
+      "price": 7763.67,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Thermaltake View 380",
+      "brand": "Thermaltake",
+      "description": "850W 80+ Gold ARGB USB 3.2 Bubble Pink ATX Mid Tower Kasa",
+      "price": 10231.53,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/case/case_img10-3.png"
+      ]
+    }
+  ]
+}

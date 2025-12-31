@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 112,
+    "name": "Graphics Card",
+    "parentId": 11,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "MSI GeForce RTX 5060 TI 16G GAMING TRIO OC",
+      "brand": "MSI",
+      "description": "GDDR7 DLSS 4 128 Bit Ekran Kartı",
+      "price": 34099.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MSI GeForce RTX 5060 Ti SHADOW 2X OC PLUS 8GB",
+      "brand": "MSI",
+      "description": "GDDR7 DLSS 4 128 Bit Bulk Ekran Kartı",
+      "price": 25555.20,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MSI GeForce RTX 5060 TI 16G INSPIRE 2X OC",
+      "brand": "MSI",
+      "description": "GDDR7 DLSS 4 128 Bit Ekran Kartı",
+      "price": 31099.20,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GIGABYTE GeForce RTX 5070 AERO OC 12G",
+      "brand": "GIGABYTE",
+      "description": "GDDR7 DLSS 4 192 Bit Ekran Kartı",
+      "price": 41879.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ASUS PROART GeForce RTX 5070TI 16GB OC Edition",
+      "brand": "ASUS",
+      "description": "GDDR7 DLSS 4 256 Bit Ekran Kartı",
+      "price": 65259.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "MSI GeForce RTX 5060 8G GAMING TRIO OC WHITE",
+      "brand": "MSI",
+      "description": "GDDR7 DLSS 4 128 Bit Ekran Kartı",
+      "price": 23172.32,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "GIGABYTE GeForce RTX 5060 WINDFORCE MAX OC 8G",
+      "brand": "GIGABYTE",
+      "description": "GDDR7 DLSS 4 128 Bit Ekran Kartı",
+      "price": 17526.50,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "MSI GeForce RTX 5070 Ti MLG Edition 16GB",
+      "brand": "MSI",
+      "description": "GDDR7 DLSS 4 256 Bit Ekran Kartı",
+      "price": 17526.50,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "ASUS Dual GeForce RTX 5060 Ti WHITE OC Edition 16GB",
+      "brand": "ASUS",
+      "description": "GDDR7 DLSS 4 128 Bit Ekran Kartı",
+      "price": 33346.14,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ASROCK AMD Radeon RX 9070 Steel Legend 16GB OC",
+      "brand": "ASROCK",
+      "description": "GDDR6 256 Bit Ekran Kartı",
+      "price": 39598.97,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/gpu/gpu_img10-3.png"
+      ]
+    }
+  ]
+}

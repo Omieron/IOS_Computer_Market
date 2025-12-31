@@ -1,0 +1,120 @@
+{
+  "category": {
+    "id": 110,
+    "name": "CPU",
+    "parentId": 11,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "INTEL Core i7 12700F",
+      "brand": "INTEL",
+      "description": "3.6GHz 25MB Önbellek 12 Çekirdek 1700 10nm Tray İşlemci",
+      "price": 13499.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img1-1.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AMD Ryzen 5 7500X3D",
+      "brand": "AMD",
+      "description": "4.0 GHz 96MB Önbellek 6 Çekirdek AM5 5nm Tray İşlemci",
+      "price": 13919.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img2-1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "AMD Ryzen 5 7500X3D",
+      "brand": "AMD",
+      "description": "4.0 GHz 96MB Önbellek 6 Çekirdek AM5 5nm İşlemci",
+      "price": 17339.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img3-1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AMD Ryzen 5 9500F",
+      "brand": "AMD",
+      "description": "3.8GHz 32MB Önbellek 6 Çekirdek AM5 4nm Tray İşlemci",
+      "price": 11249.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img4-1.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AMD RYZEN THREADRIPPER PRO 9995WX",
+      "brand": "AMD",
+      "description": "5.4GHz 384MB Önbellek 96 Çekirdek sTR5 4nm Tray İşlemci",
+      "price": 688519.42,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img5-1.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "AMD Ryzen 9 9900X3D",
+      "brand": "AMD",
+      "description": "4.4GHz 128MB Önbellek 12 Çekirdek AM5 4nm İşlemci",
+      "price": 35432.81,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img6-1.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "INTEL Core Ultra 5 225F",
+      "brand": "INTEL",
+      "description": "3.3GHz 20MB Önbellek 10 Çekirdek 1851 3nm İşlemci",
+      "price": 14719.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img7-1.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "INTEL Core i5 14400F",
+      "brand": "INTEL",
+      "description": "2.5GHz 20MB Önbellek 10 Çekirdek 1700 10nm Tray İşlemci",
+      "price": 10560.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img8-1.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "INTEL Core i7 12700KF",
+      "brand": "INTEL",
+      "description": "3.6GHz 25MB Önbellek 12 Çekirdek 1700 10nm Tray İşlemci",
+      "price": 12499.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img9-1.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "INTEL Core i3 10105F",
+      "brand": "INTEL",
+      "description": "3.70GHz 6MB Önbellek 4 Çekirdek 1200 14nm İşlemci",
+      "price": 4869.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/processor/processor_img10-1.png"
+      ]
+    }
+  ]
+}

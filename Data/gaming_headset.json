@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 103,
+    "name": "Gaming Headset",
+    "parentId": 10,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Razer BlackShark V2 X Green",
+      "brand": "Razer",
+      "description": "Gaming Kulaklık",
+      "price": 3696.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "CORSAIR Void Elite RGB",
+      "brand": "CORSAIR",
+      "description": "7.1 Surround Siyah Kablosuz Gaming Kulaklık",
+      "price": 3999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Steelseries Arctis Nova 5",
+      "brand": "Steelseries",
+      "description": "Kablosuz Siyah Gaming Kulaklık",
+      "price": 7999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rampage RM-K19B RAGING PLUS",
+      "brand": "Rampage",
+      "description": "7.1 Surround RGB Beyaz Mikrofonlu Gaming Kulaklık",
+      "price": 1313.93,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Logitech G ASTRO A50 X LIGHTSPEED",
+      "brand": "Logitech",
+      "description": "Siyah Kablosuz Baz İstasyonlu Gaming Kulaklık",
+      "price": 26303.15,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Logitech G522 Lightspeed RGB",
+      "brand": "Logitech",
+      "description": "Siyah Kablosuz Gaming Kulaklık",
+      "price": 8299.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Steelseries Arctis Nova Elite",
+      "brand": "Steelseries",
+      "description": "Kablosuz Sage Gold Gaming Kulaklık",
+      "price": 45599.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Razer Kraken Kitty V2 Gengar Edition",
+      "brand": "Razer",
+      "description": "RGB Mikrofonlu Gaming Kulaklık",
+      "price": 14044.80,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "GameBooster WBH23B Nemesis PRO",
+      "brand": "GameBooster",
+      "description": "RGB Wireless 2.4G+BT Siyah Kablosuz Gaming Kulaklık",
+      "price": 2557.11,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ASUS TUF GAMING H1 GEN II Miku Edition",
+      "brand": "ASUS",
+      "description": "7.1 Surround Kablolu Gaming Kulaklık",
+      "price": 4971.47,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/headset/headset_img10-3.png"
+      ]
+    }
+  ]
+}

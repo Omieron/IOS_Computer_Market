@@ -1,0 +1,120 @@
+{
+  "category": {
+    "id": 111,
+    "name": "RAM",
+    "parentId": 11,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Lexar 32GB (2x16GB) Thor OC",
+      "brand": "Lexar",
+      "description": "6000MHz CL38 XMP/EXPO DDR5 Siyah Dual Kit Ram",
+      "price": 21999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img1-1.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "XPG Lancer 32GB(2x16GB) RGB",
+      "brand": "XPG",
+      "description": "6000MHz CL30 DDR5 Beyaz Dual Kit Ram",
+      "price": 25080.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img2-1.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "CORSAIR Vengeance 32GB RGB",
+      "brand": "CORSAIR",
+      "description": "5600MHz CL40 DDR5 EXPO/XMP Single Kit Ram",
+      "price": 22999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img3-1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "CORSAIR Dominator Titanium 96GB (2x48GB) RGB",
+      "brand": "CORSAIR",
+      "description": "6000MHz CL30 EXPO/XMP DDR5 Beyaz Dual Kit Ram",
+      "price": 80731.20,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img4-1.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "CORSAIR 32GB Vengeance",
+      "brand": "CORSAIR",
+      "description": "5600MHz CL40 DDR5 XMP/EXPO Single Kit Ram",
+      "price": 22999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img5-1.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kingston 64GB(2x32GB) Beast Black",
+      "brand": "Kingston",
+      "description": "EXPO/XMP 6400MHz CL32 DDR5 Dual Kit Ram",
+      "price": 42481.74,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img6-1.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kingston Renegade 32GB(2x16)",
+      "brand": "Kingston",
+      "description": "8000MHz CL38 DDR5 Dual Kit Ram",
+      "price": 24274.85,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img7-1.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "GSKILL 96GB (2x48GB) Trident Z5 Neo RGB",
+      "brand": "GSKILL",
+      "description": "DDR5 6000Mhz CL30 AMD EXPO Dual Kit Ram",
+      "price": 73339.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img8-1.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Lexar 48GB (2x24GB) ARES RGB",
+      "brand": "Lexar",
+      "description": "8000MHz CL40 XMP/ EXPO DDR5 Siyah Dual Kit Ram",
+      "price": 26297.84,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img9-1.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "GSKILL 32GB (2x16GB) Trident Z5 Neo RGB",
+      "brand": "GSKILL",
+      "description": "DDR5 6000Mhz CL28 AMD EXPO Dual Kit Ram",
+      "price": 31679.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/ram/ram_img10-1.png"
+      ]
+    }
+  ]
+}

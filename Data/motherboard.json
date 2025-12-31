@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 113,
+    "name": "Motherboard",
+    "parentId": 11,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "GIGABYTE H810M K",
+      "brand": "GIGABYTE",
+      "description": "6400MHz DDR5 Soket 1851 M.2 USB 3.2 HDMI mATX Anakart",
+      "price": 4259.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "GIGABYTE B850M AORUS ELITE WIFI6E",
+      "brand": "GIGABYTE",
+      "description": "8200MHz OC DDR5 Soket AM5 M.2 HDMI DP mATX Anakart",
+      "price": 11679.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ASROCK B650M PRO X3D",
+      "brand": "ASROCK",
+      "description": "8000MHz OC DDR5 Soket AM5 M.2 USB 3.2 DP HDMI mATX Anakart",
+      "price": 8779.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "MSI PRO B860M-B",
+      "brand": "MSI",
+      "description": "9066MHz OC DDR5 Soket 1851 M.2 HDMI DP mATX Anakart",
+      "price": 7649.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "GIGABYTE B650E AORUS ELITE X AX ICE",
+      "brand": "GIGABYTE",
+      "description": "8000MHz(OC)DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
+      "price": 10839.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "GIGABYTE B850 EAGLE WIFI7 ICE",
+      "brand": "GIGABYTE",
+      "description": "8200MHz(OC) DDR5 AM5 DP HDMI M.2 ATX Anakart",
+      "price": 11279.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MSI MAG B850 TOMAHAWK WIFI",
+      "brand": "MSI",
+      "description": "8200MHz(OC) DDR5 Soket AM5 M.2 HDMI ATX Anakart",
+      "price": 14520.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "MSI MAG X870E TOMAHAWK MAX WIFI PZ",
+      "brand": "MSI",
+      "description": "8400MHz(OC) DDR5 Soket AM5 M.2 HDMI ATX Anakart",
+      "price": 23126.40,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "ASROCK H810M-H",
+      "brand": "ASROCK",
+      "description": "6400MHz DDR5 Soket 1851 M.2 USB 3.2 HDMI mATX Anakart",
+      "price": 4449.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ASROCK B860 STEEL LEGEND WIFI",
+      "brand": "ASROCK",
+      "description": "8666MHz(OC) DDR5 Soket 1851 M.2 USB 3.2 HDMI ATX Anakart",
+      "price": 12539.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/motherboard/motherboard_img10-3.png"
+      ]
+    }
+  ]
+}

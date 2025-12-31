@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 101,
+    "name": "Gaming Keyboard",
+    "parentId": 10,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Philips Evnia SPK8618UPRH",
+      "brand": "Philips",
+      "description": "Mekanik Hot Swap Switch RGB Kablosuz Mor Klavye",
+      "price": 6399.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aula F108 Pro",
+      "brand": "Aula",
+      "description": "Reaper Switch RGB Siyah Gaming Klavye",
+      "price": 3733.71,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MSI FORGE GK110",
+      "brand": "MSI",
+      "description": "Membrane Switch RGB Mekanik Türkçe Kablolu Gaming Klavye",
+      "price": 729.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "A4Tech Bloody S515R Fire Black",
+      "brand": "A4Tech",
+      "description": "BMLS Red Switch RGB Kablolu Türkçe Gaming Klavye",
+      "price": 3235.77,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "CORSAIR K70 PRO TKL",
+      "brand": "CORSAIR",
+      "description": "High-Performance Hall Effect Switch RGB Türkçe Beyaz Gaming Klavye",
+      "price": 6499.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "SteelSeries Apex 9 Mini",
+      "brand": "SteelSeries",
+      "description": "RGB İngilizce Kablolu Gaming Klavye",
+      "price": 7999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Aula S100 Pro",
+      "brand": "Aula",
+      "description": "RGB Mekanik Hot Swap Red Switch Mavi Kablosuz Gaming Klavye",
+      "price": 2200.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Razer BlackWidow V4 X Minecraft Edition",
+      "brand": "Razer",
+      "description": "Green Switch Kablolu Gaming Klavye",
+      "price": 10821.98,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Corsair K65 PLUS WIRELESS",
+      "brand": "Corsair",
+      "description": "RGB MLX Red Switch Türkçe Kablosuz Gaming Klavye",
+      "price": 4999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ASUS ROG Azoth X NX SNOW",
+      "brand": "ASUS",
+      "description": "RGB Mekanik Gaming Klavye",
+      "price": 16221.69,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/keyboard/keyboard_img10-3.png"
+      ]
+    }
+  ]
+}

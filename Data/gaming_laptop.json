@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 120,
+    "name": "Gaming Laptop",
+    "parentId": 12,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "MSI CYBORG 15 B13WFKG-491XTR",
+      "brand": "MSI",
+      "description": "Core i5-13420H 16GB DDR5 RTX5060 GDDR7 8GB 512GB SSD 15.6\" FHD 144Hz FreeDos Gaming Notebook",
+      "price": 56496.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lenovo LOQ 15IAX9",
+      "brand": "Lenovo",
+      "description": "i5-12450HX 16GB DDR5 RTX 4050 6GB GDDR6 512GB M.2 SSD 15.6\" 144Hz FHD G-SYNC FreeDos Gaming Notebook",
+      "price": 56548.80,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ASUS TUF GAMING F16 FX608JH-RV010",
+      "brand": "ASUS",
+      "description": "i5-13450HX 16GB DDR5 512 GB SSD RTX 5050 GDDR7 8GB 16\" FHD FreeDos Gaming Notebook",
+      "price": 61700.14,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GIGABYTE GAMING A16",
+      "brand": "GIGABYTE",
+      "description": "Ryzen 7 260 16GB DDR5 RTX5060 GDDR7 8GB 1 TB SSD 16\" FHD 165Hz FreeDos Gaming Notebook",
+      "price": 67022.23,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ASUS ROG Strix G16",
+      "brand": "ASUS",
+      "description": "i5 13450HX 16GB DDR5 RTX 5050 8GB 512 GB SSD 16\" WUXGA 165Hz DOS Gaming Notebook",
+      "price": 75489.12,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "ASUS ROG Flow Z13",
+      "brand": "ASUS",
+      "description": "Ryzen AI MAX+ 395 32GB LPDDR5X 1TB SSD 13.4\" WQXGA 180Hz DOS Gaming Notebook",
+      "price": 122918.40,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Lenovo LOQ 15ARP9",
+      "brand": "Lenovo",
+      "description": "Ryzen 7 7435HS 24GB DDR5 RTX4070 GDDR6 8GB 1TB SSD 15.6\" FHD 144Hz DOS Notebook",
+      "price": 81998.40,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "GIGABYTE AERO X16 1V",
+      "brand": "GIGABYTE",
+      "description": "AMD Ryzen Al 7 350 16GB DDR5 RTX5060 GDDR7 8GB 1TB SSD 16\" WQXGA 165Hz(Pantone) W11H Gaming Notebook",
+      "price": 79999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "RAZER Blade 18",
+      "brand": "RAZER",
+      "description": "Ultra 9 275HX 64GB DDR5 RTX 5090 GDDR7 24GB 4TB SSD 18\" UHD 240Hz FHD 440Hz Dual Mode W11H Gaming Notebook",
+      "price": 279999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Lenovo Legion 7 16IRX9",
+      "brand": "Lenovo",
+      "description": "i7-14700HX 32GB DDR5 RTX4070 GDDR6 8GB 1TB SSD 16\" 3.2K 165Hz DOS Notebook",
+      "price": 133742.40,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/laptop/laptop_img10-3.png"
+      ]
+    }
+  ]
+}

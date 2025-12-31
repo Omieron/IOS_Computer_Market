@@ -1,0 +1,126 @@
+{
+  "category": {
+    "id": 121,
+    "name": "Gaming Ready PC",
+    "parentId": 12,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "ASUS ROG GM700",
+      "brand": "ASUS",
+      "description": "9800X3D 64GB DDR5 2TB SSD RXT 5080 Prime 16GB GDDR7 850W 80+ Gold PSU FreeDos Masaüstü Gaming Bilgisayar",
+      "price": 163999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MSI MPG INFINITE Z3 9NVRR9-285EU",
+      "brand": "MSI",
+      "description": "Ryzen 9 9900X 32GB DDR5 2TB SSD RTX 5070 Tİ VENTUS 3X 16G W11 GAMING PC",
+      "price": 166458.94,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MSI MEG VISION X AI 2NVV7-004EU",
+      "brand": "MSI",
+      "description": "Ultra 7 265K 32GB DDR5 2TB SSD RTX5080 SHADOW 3X 16GB W11 Gaming PC",
+      "price": 215368.42,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HANGIONUR-FORCE",
+      "brand": "Custom Build",
+      "description": "AMD Ryzen 5 7500F / GIGABYTE GeForce RTX 5070 12GB / 16GB DDR5 / 500GB M.2 SSD / OEM PAKET",
+      "price": 63901.41,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img4-1.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "RIDVAN YILMAZ-BACK",
+      "brand": "Custom Build",
+      "description": "AMD Ryzen 5 7600 / GIGABYTE GeForce RTX 5070 12GB / 16GB DDR5 / 1TB M.2 SSD / OEM PAKET",
+      "price": 74288.50,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img5-1.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "TECHNOPAT-SYNC V3",
+      "brand": "Custom Build",
+      "description": "INTEL Core i5 12400F / ASUS GeForce RTX 5050 8GB / 16GB DDR4 / 500GB NVME M.2 SSD / OEM PAKET",
+      "price": 39861.41,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img6-1.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "QUADRO-ULTRA",
+      "brand": "Custom Build",
+      "description": "INTEL Core Ultra 9 285K / PNY RTX PRO 5000 BLACKWELL 48G / 96GB DDR5 / 4TB M.2 2280 / OEM PAKET",
+      "price": 447741.08,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img7-1.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "PHOENIX-5090 WHITE",
+      "brand": "Custom Build",
+      "description": "INTEL Core Ultra 9 285K / ASUS GeForce RTX 5090 32GB / 64GB DDR5 / 2TB M.2 SSD / OEM PAKET",
+      "price": 352314.58,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img8-1.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "DELTA-STONE",
+      "brand": "Custom Build",
+      "description": "INTEL Core Ultra 9 285K / MSI GeForce RTX 5090 32GB / 64 GB DDR5 / 2TB M.2 SSD / OEM PAKET",
+      "price": 257809.31,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img9-1.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "HARUN CAN-ICEBERG",
+      "brand": "Custom Build",
+      "description": "INTEL Core Ultra 9 285K / MSI GeForce RTX 5090 32GB / 32GB DDR5 / 2TB NVME M.2 SSD / OEM PAKET",
+      "price": 242931.14,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/grpc/grpc_img10-1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "category": {
+    "id": 102,
+    "name": "Gaming Mouse",
+    "parentId": 10,
+    "rootId": 1
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "A4Tech Bloody R73 ULTRA",
+      "brand": "A4Tech",
+      "description": "20000 CPI Siyah Kablosuz Gaming Mouse",
+      "price": 2628.87,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Philips Evnia SPK9718 Pro Max",
+      "brand": "Philips",
+      "description": "PAW3950 30000 DPI 8000Hz Kablosuz Beyaz Gaming Mouse",
+      "price": 5760.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Razer Pro Click V2",
+      "brand": "Razer",
+      "description": "30000 DPI Kablosuz Gaming Mouse",
+      "price": 6371.40,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "GameBooster M25 Storm",
+      "brand": "GameBooster",
+      "description": "PAW3311 12000 DPI Beyaz Kablosuz Gaming Mouse",
+      "price": 999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img4-3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "GameBooster M23 Vortex",
+      "brand": "GameBooster",
+      "description": "PAW3311 12000 DPI Beyaz Kablosuz Gaming Mouse",
+      "price": 999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img5-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img5-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img5-3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Logitech G PRO 2 LIGHTSPEED HERO 2",
+      "brand": "Logitech",
+      "description": "Pembe Kablosuz Gaming Mouse",
+      "price": 7246.02,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img6-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img6-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img6-3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "BenQ Zowie EC3-DW",
+      "brand": "BenQ",
+      "description": "3200 DPI Kablosuz Gaming Mouse",
+      "price": 7326.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img7-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img7-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img7-3.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Razer Cobra Pokemon Edition",
+      "brand": "Razer",
+      "description": "8500 DPI Kablolu RGB Gaming Mouse",
+      "price": 4593.60,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img8-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img8-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img8-3.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SteelSeries CS2 Dragon Lore Edition",
+      "brand": "SteelSeries",
+      "description": "Kablosuz Gaming Mouse",
+      "price": 5999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img9-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img9-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img9-3.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Aula SC580X Lightweight",
+      "brand": "Aula",
+      "description": "PAW3311 10000 DPI 1000Hz Beyaz Kablosuz Gaming Mouse",
+      "price": 1356.05,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img10-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img10-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/mouse/mouse_img10-3.png"
+      ]
+    }
+  ]
+}
