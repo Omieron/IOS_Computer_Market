@@ -23,28 +23,50 @@ class ProductsVC: UIViewController, ProductDetailDelegate {
     
     let jsonDataSource = DataSoruce()
     
+    private var isLoadingProducts = false
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        guard let category = selectedCategory else { return }
-        title = category.name
-        
-        //let categoriesToShow: [Category]
-        
-        /*if category.children.isEmpty {
-            categoriesToShow = [category]
-        } else {
-            categoriesToShow = category.children.flatMap { $0.children }
+            super.viewDidLoad()
+            
+            guard let category = selectedCategory else { return }
+            title = category.name
+            
+            fetchCartData()
+            fetchFavoriteData()
+            
+            loadProducts()
         }
-        */
-        jsonDataSource.populateFromJSON()
         
-        fetchCartData()
-        
-        fetchFavoriteData()
-
-        productTableView.reloadData()
-    }
+        func loadProducts() {
+            guard let category = selectedCategory else { return }
+            
+            isLoadingProducts = true
+            
+            // Kategorinin tüm leaf alt kategorilerinin ID'lerini topla
+            let categoryIds = jsonDataSource.getAllLeafCategoryIds(from: category)
+            
+            print("Yüklenecek kategori ID'leri: \(categoryIds)")
+            
+            // Ürünleri yükle
+            jsonDataSource.populateProductsForCategories(categoryIds) { [weak self] success in
+                guard let self = self else { return }
+                
+                self.isLoadingProducts = false
+                
+                if success {
+                    self.productTableView.reloadData()
+                } else {
+                    
+                    let alert = UIAlertController(
+                        title: "Hata",
+                        message: "Ürünler yüklenirken bir hata oluştu.",
+                        preferredStyle: .alert
+                    )
+                    alert.addAction(UIAlertAction(title: "Tamam", style: .default))
+                    self.present(alert, animated: true)
+                }
+            }
+        }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
