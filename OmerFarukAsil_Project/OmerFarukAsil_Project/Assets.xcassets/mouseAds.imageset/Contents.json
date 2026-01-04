@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "HW2-2.png",
+      "filename" : "mouseAds.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "mouseAds2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "mouseAds3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
