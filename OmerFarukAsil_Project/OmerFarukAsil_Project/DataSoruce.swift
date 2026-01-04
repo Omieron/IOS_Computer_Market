@@ -103,6 +103,13 @@ class DataSoruce {
         case 114: return "case"
         case 120: return "gaming_laptop"
         case 121: return "gaming_ready_pc"
+        
+        case 200: return "office_monitor"
+        case 201: return "office_laptop"
+        case 202: return "office_mk"
+
+        case 301: return "workstation_pc"
+        case 302: return "workstation_monitor"
         default: return nil
         }
     }

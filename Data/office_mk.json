@@ -1,0 +1,49 @@
+{
+  "category": {
+    "id": 202,
+    "name": "Keyboard & Mouse",
+    "parentId": 20,
+    "rootId": 2
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Philips SPT6607",
+      "brand": "Philips",
+      "description": "Kablosuz Türkçe Q Siyah Klavye Mouse Set",
+      "price": 2178.51,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MSI FORGE K200 Wireless Combo",
+      "brand": "MSI",
+      "description": "Türkçe Kablosuz Klavye Mouse Set",
+      "price": 1459.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "A4 Tech Fsytler F1010",
+      "brand": "A4 Tech",
+      "description": "Beyaz Türkçe Q Klavye Mouse Set",
+      "price": 972.28,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_mk/office_mk_img3-3.png"
+      ]
+    }
+  ]
+}

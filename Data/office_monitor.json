@@ -1,0 +1,62 @@
+{
+  "category": {
+    "id": 200,
+    "name": "Office Monitor",
+    "parentId": 20,
+    "rootId": 2
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "LG 27U421A-B",
+      "brand": "LG",
+      "description": "27'' 100Hz 5ms HDMI USB-C FHD VA Curved 1500R Gaming Monitör",
+      "price": 5614.82,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "LG 24U421A-B",
+      "brand": "LG",
+      "description": "23.8'' 100Hz 5ms HDMI USB-C FHD VA Curved 1500R Gaming Monitör",
+      "price": 5093.65,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "LG UltraWide 34WR55QK-B",
+      "brand": "LG",
+      "description": "34'' 100Hz 5ms HDMI DP WQHD Curved 1800R VA Gaming Monitör",
+      "price": 16953.15,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img3-3.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "LG UltraWide 29U531A-W",
+      "brand": "LG",
+      "description": "29'' 100Hz 1ms HDMI DP USB-C HDR10 WFHD IPS Beyaz Gaming Monitör",
+      "price": 10595.41,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img4-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img4-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_monitor/office_monitor_img4-3.png"
+      ]
+    }
+  ]
+}

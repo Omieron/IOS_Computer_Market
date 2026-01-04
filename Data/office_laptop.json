@@ -1,0 +1,52 @@
+{
+  "category": {
+    "id": 201,
+    "name": "Office Laptop",
+    "parentId": 20,
+    "rootId": 2
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "ASUS Vivobook 16S",
+      "brand": "ASUS",
+      "description": "i5-13420H 16GB DDR5 1TB SSD 16\" WUXGA 144Hz FreeDos Notebook",
+      "price": 35999.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img1-3.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img1-4.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ASUS Vivobook 15",
+      "brand": "ASUS",
+      "description": "Ryzen 5 7520U 8GB LPDDR5 512GB SSD 15.6\" FHD 60Hz FreeDos Notebook",
+      "price": 31399.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img2-3.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img2-4.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ASUS Vivobook Go 15",
+      "brand": "ASUS",
+      "description": "Ryzen 5 7520U 16GB DDR5 512 GB SSD 15\" FHD 60Hz FreeDos Notebook",
+      "price": 25699.00,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img3-3.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/office_laptop/office_laptop_img3-4.png"
+      ]
+    }
+  ]
+}

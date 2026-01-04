@@ -1,0 +1,49 @@
+{
+  "category": {
+    "id": 301,
+    "name": "Workstation PC",
+    "parentId": 30,
+    "rootId": 3
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "MSI PRO DP180 12-422XTR",
+      "brand": "MSI",
+      "description": "i5-12400 16GB DDR4 512GB SSD FreeDos Masaüstü Bilgisayar",
+      "price": 45299.90,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img1-3.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MSI PRO DP130 11RK-015TR",
+      "brand": "MSI",
+      "description": "i7-11700F 16GB DDR4 GT 1030 2GB DDR5 512GB SSD W10P Siyah Masaüstü Bilgisayar",
+      "price": 41399.42,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img2-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img2-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img2-3.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MSI PRO DP21 11M-025TR",
+      "brand": "MSI",
+      "description": "i5-11400 8GB DDR4 256GB SSD W10P Siyah Masaüstü Bilgisayar",
+      "price": 53699.30,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img3-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img3-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_pc/ws_pc_img3-3.png"
+      ]
+    }
+  ]
+}

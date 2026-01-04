@@ -1,0 +1,23 @@
+{
+  "category": {
+    "id": 302,
+    "name": "Professional Monitor",
+    "parentId": 30,
+    "rootId": 3
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "ASUS ProArt Display PA32UCDM",
+      "brand": "ASUS",
+      "description": "32\" 240Hz 0.1ms HDMI USB-C USB 3.2 AdaptiveSync Pivot HDR10 QD-OLED Monitör",
+      "price": 95632.67,
+      "currency": "TRY",
+      "images": [
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_monitor/ws_monitor_img1-1.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_monitor/ws_monitor_img1-2.png",
+        "https://raw.githubusercontent.com/Omieron/IOS_Computer_Market/main/Data/IMG/workstation_monitor/ws_monitor_img1-3.png"
+      ]
+    }
+  ]
+}

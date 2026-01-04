@@ -23,12 +23,11 @@
                         <segue destination="LRC-QA-MYn" kind="relationship" relationship="viewControllers" id="khr-9U-dvl"/>
                         <segue destination="FTn-DO-WKx" kind="relationship" relationship="viewControllers" id="BNu-QB-r5y"/>
                         <segue destination="41B-BP-2Us" kind="relationship" relationship="viewControllers" id="HJr-j1-wBc"/>
-                        <segue destination="3BK-SY-9Xx" kind="relationship" relationship="viewControllers" id="S73-uy-W47"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRU-9c-kDv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1158" y="447"/>
+            <point key="canvasLocation" x="-1143" y="-35"/>
         </scene>
         <!--Categories-->
         <scene sceneID="0TB-ea-SC7">
@@ -503,23 +502,6 @@
             </objects>
             <point key="canvasLocation" x="1937" y="1410"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="eGd-kY-CfK">
-            <objects>
-                <navigationController id="3BK-SY-9Xx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="ycx-Is-uGt"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3HP-mk-uNV">
-                        <rect key="frame" x="0.0" y="118" width="393" height="54"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="NFG-1w-dGf" kind="relationship" relationship="rootViewController" id="LE8-6f-hiU"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lfM-AI-59F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="424" y="2355"/>
-        </scene>
         <!--Home-->
         <scene sceneID="C1v-9P-3zk">
             <objects>
@@ -679,22 +661,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PZa-A6-sUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1936.6412213740457" y="-1385.2112676056338"/>
-        </scene>
-        <!--Profile-->
-        <scene sceneID="1e2-Lc-l28">
-            <objects>
-                <viewController id="NFG-1w-dGf" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2nD-uD-Q8g">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="qwB-V5-Xq0"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Profile" id="9hH-8y-4WF"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kak-aK-OYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1937" y="2355"/>
         </scene>
         <!--Product-->
         <scene sceneID="y5H-Ey-TIv">
@@ -911,7 +877,6 @@
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="laptopcomputer" catalog="system" width="128" height="71"/>
         <image name="pc" catalog="system" width="128" height="117"/>
-        <image name="person" catalog="system" width="128" height="121"/>
         <image name="placeholder" width="1024" height="1024"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
