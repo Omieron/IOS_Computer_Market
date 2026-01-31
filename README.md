@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>📚 iOS Programming Course - Term Project</strong><br/>
+  <strong>📚 CTIS-480 IOS Programming Course - Term Project</strong><br/>
   <em>A modern e-commerce application for computer hardware and peripherals</em>
 </p>
 
@@ -24,18 +24,36 @@
 
 ## 📸 Screenshots
 
+### 🏠 Main Flow
 <p align="center">
-  <img src="assets/home-menu.png" width="200" alt="Home Screen"/>
-  <img src="assets/categories-menu.png" width="200" alt="Categories"/>
-  <img src="assets/all-gaming-categories.png" width="200" alt="Product List"/>
-  <img src="assets/product.png" width="200" alt="Product Detail"/>
+  <img src="assets/home-menu.png" width="180" alt="Home Screen"/>
+  &nbsp;&nbsp;
+  <img src="assets/categories-menu.png" width="180" alt="Categories"/>
+  &nbsp;&nbsp;
+  <img src="assets/all-gaming-categories.png" width="180" alt="Product List"/>
+  &nbsp;&nbsp;
+  <img src="assets/product.png" width="180" alt="Product Detail"/>
 </p>
 
 <p align="center">
-  <img src="assets/product-pictures.png" width="200" alt="Image Gallery"/>
-  <img src="assets/fav-add-to-cart.png" width="200" alt="Add to Cart from Favorites"/>
-  <img src="assets/fav-delete-from-fav.png" width="200" alt="Delete from Favorites"/>
-  <img src="assets/my-cart.png" width="200" alt="Shopping Cart"/>
+  <em>Home → Categories → Products → Product Details</em>
+</p>
+
+---
+
+### ⭐ Features
+<p align="center">
+  <img src="assets/product-pictures.png" width="180" alt="Image Gallery"/>
+  &nbsp;&nbsp;
+  <img src="assets/fav-add-to-cart.png" width="180" alt="Add to Cart from Favorites"/>
+  &nbsp;&nbsp;
+  <img src="assets/fav-delete-from-fav.png" width="180" alt="Delete from Favorites"/>
+  &nbsp;&nbsp;
+  <img src="assets/my-cart.png" width="180" alt="Shopping Cart"/>
+</p>
+
+<p align="center">
+  <em>Image Gallery • Swipe to Add to Cart • Swipe to Delete • Empty Cart State</em>
 </p>
 
 ## 📱 About
